@@ -1,0 +1,245 @@
+.main{
+	margin: 10px;
+}
+
+.header-wrapper{
+	background-image: url("../img/images/pexels-makjp-12258695.jpg");
+	background-size: cover;
+}
+
+
+.header-h1{
+	padding-top: 200px;
+	padding-left: 220px;
+	padding-bottom: 50px;
+	color: white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 65px;
+	font-weight: bold;
+}
+
+.header-wrapper h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 30px 10px;
+}
+
+.header-info{
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	align-items: center;
+	padding-bottom: 80px;
+	padding-right: 150px;
+}
+
+.header-wrapper li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.block-first{
+	color: white;
+	background-color: rgb(92, 215, 205);
+	width: 380px;
+	height: 350px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+	
+	
+
+.block-second{
+	color: white;
+	background-color: black;
+	width: 380px;
+	height: 350px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.info-block-1{
+	background-color: rgb(233, 233, 233);
+}
+
+.header-info-block-1{
+	width: 70%;
+	
+}
+
+.header-info-block-1 h1 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 65px;
+	font-weight: bold;
+	padding: 30px;
+}
+
+.header-info-block-1 p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	padding: 30px;
+	padding-bottom: 80px;
+	color: grey;
+
+}
+
+.svg-block-1{
+	margin: 0px 40px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	border-bottom: 40px solid rgb(233, 233, 233);
+
+}
+
+.svg-block-1 img {
+	background-color: rgb(92, 215, 205);
+	border-radius: 50%;
+	width: 30%;
+	margin-top: -65px;
+
+}
+
+.svg-block-1 h2 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 30px;
+}
+
+.svg-block-1 p{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	color: grey;
+	padding: 0 10px;
+}
+ .block-blue{
+	background-color: rgb(92, 215, 205);
+	display: flex;
+	padding: 15px;
+ }
+
+ .column-blue{
+	width: 100%;
+ }
+
+ .column-blue h1 {
+	padding: 50px;
+	color: white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 65px;
+	font-weight: bold;
+ }
+
+ .column-blue li {
+	color: white;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 15px;
+	padding-left: 80px; 
+}
+
+.column-blue input {
+	background-color: black;
+	width: 200px;
+	height: 60px;
+	color: white;
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 40px 80px;
+}
+
+.text-blue img {
+	border-radius: 50%;
+	width: 35%;
+	padding: 20px;
+}
+
+.text-blue p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	width: 60%;
+}
+
+.text-blue{
+	padding-top: 250px;
+	padding-left: 300px;
+	padding-bottom: 120px;
+}
+
+.content h1 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 65px;
+	font-weight: bold;
+	width: 80%;
+	padding: 40px;
+}
+
+.content-column{
+	display: flex;
+}
+
+.content-column li {
+	color: gray;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	padding: 30px;
+	margin-left: 70px;
+}
+
+.content-column ul {
+	list-style-type: disc;
+}
+
+.content-column ul li::marker{
+    color: green;
+    font-size: 3.5em;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+}
+
+.footer-logos{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+.footer h1 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 65px;
+	font-weight: bold;
+	padding: 40px;
+}
+
+.footer p {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	padding: 40px;
+}
+
+.footer-logos img {
+	height: 40px;
+	width: 60%;
+	
+}
+
+.footer-logos input {
+	background-color: rgb(92, 215, 205);
+	width: 200px;
+	height: 60px;
+	color: white;
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 40px;
+}
+
