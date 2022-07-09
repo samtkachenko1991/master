@@ -346,7 +346,7 @@ h2.main_text.footer{
 a:link.btn_a, a:visited {
     display: block;
     text-decoration: none;
-    color: white;
+    color: rgb(72, 29, 180);
     line-height: 40px;
     transition: all 0.5s;
 }

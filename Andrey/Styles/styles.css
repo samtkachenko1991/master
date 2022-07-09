@@ -1,0 +1,164 @@
+/* logo */
+
+.logo_style {
+  font-size: 36px;
+  text-shadow:  1px 1px 5px grey, 1px -1px 4px, -2px 0px 3px, 1px 1px 7px orange;
+  opacity: 0.75;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo_img {
+  display: flex;
+}
+
+.nav a { 
+  text-decoration: none;
+  color: rgb(0, 0, 0)
+}
+
+.dropbtn {
+  background-color: rgb(203, 245, 245);
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+a:link, a:visited {
+  color:blue;
+}
+
+
+.title {
+    font-size: 70px;
+    margin-left: 30px;
+    padding-top: 20px;
+  }
+
+  .section-1 {
+    height: 600px;
+    max-width: 1300px;
+    min-width: 400px;
+    margin: 20px auto;
+    
+  }
+
+  
+  .column {
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    float: right;
+    width: 254px;
+    height: 200px;
+    text-align: justify;
+    padding-left: 12px
+    
+
+  }
+  
+  .blocks {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 548px;
+    display: inline-block;
+  }
+
+  .section-2 {
+    height: 500px;
+    max-width: 1300px;
+    min-width: 400px;
+    margin: 20px auto;
+    background-color: lightgrey;
+  }
+
+  .section-3 {
+    height: 400px;
+    max-width: 1300px;
+    min-width: 400px;
+    margin: 20px auto;
+    background-color: aqua;
+  }
+
+
+  .section-4 {
+    height: 500px;
+    max-width: 1300px;
+    min-width: 400px;
+    margin: 20px auto;
+  }
+
+  .blocks-4 {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -30px
+  }
+
+  li::marker {
+    color: springgreen;
+  }
+
+  li:first-child::marker {
+    font-size: 40px;
+  }
+
+  .Section-5 {
+    height: 500px;
+    max-width: 1300px;
+    min-width: 400px;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+  }
+  
+  .img-5 {
+   width: 250px;
+   height: 150px;
+   padding-left: 10px; 
+   padding-right: 10px;
+  }
+
+  .but-5 {
+    background-color: aqua; 
+    color: white;
+    text-align: center; 
+    font-size: 16px; 
+    font-size: 16px; 
+    width: 25%; 
+    line-height: 25px; 
+    margin-left: 10px;
+  }
