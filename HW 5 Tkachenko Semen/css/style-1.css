@@ -1,0 +1,274 @@
+.main{
+	margin: 0 10px;
+	background-color: black;
+	color: white;
+}
+
+.header-block h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	padding: 40px;
+}
+
+.disk{
+	display: flex;
+}
+
+.disk-small {
+	display: flex;
+	width: 12%;
+	background-color: rgb(163, 132, 191);
+	border-radius: 50%;
+	padding: 30px;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-left: 40px;
+	margin-bottom: 200px;
+	align-items: center;
+	justify-content: center;
+}
+
+.disk p {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.disk-big {
+	display: flex;
+	width: 60%;
+	background-color: rgb(163, 132, 191);
+	border-radius: 50%;
+	padding: 30px;
+	font-size: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 50px;
+}
+
+.disk-small-p {
+	display: block;
+	width: 60%;
+	padding: 60px;
+}
+
+.block-content-1 h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	padding: 60px;
+	width: 53%;
+}
+
+.block-content-1 p {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: gray;
+	padding: 20px 60px;
+}
+
+
+.blackgirl {
+	display: flex;
+}
+
+.blackgirl-picture img {
+	width: 100%;
+	padding-top: 60px;
+}
+
+.blackgirl-svg {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 20%;
+	padding-top: 20px;
+}
+
+.blackgirl-svg img {
+	width: 40%;
+	background-color: rgb(163, 132, 191);
+	border-radius: 50%;
+	margin: 60px;
+}
+
+
+.blackgirl-content h2 {
+	font-size: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-top: 85px;
+	padding-bottom: 40px;
+}
+
+.blackgirl-content p {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: gray;
+	padding-right: 30px;
+}
+
+.strategy-block {
+	background-image: url(../img/images/pexels-guillaume-meurice-2815033.jpg);
+	background-size: cover;
+}
+
+.strategy-block-wrapper {
+	padding-bottom: 10px;
+}
+
+.strategy-block h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	padding: 60px;
+	width: 60%;
+
+}
+
+.strategy-block-content {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgb(163, 132, 191);
+	margin: 0 30px;
+	margin-bottom: 50px;
+}
+
+.strategy-section {
+	display: flex;
+	flex-basis: 50%;
+}
+
+
+.strategy-disk {
+	flex-basis: 15%;
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	background-color: white;
+	color: black;
+	border-radius: 50%;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	align-items: center;
+	justify-content: center;
+}
+
+.strategy-section p {
+	flex-basis: 80%;
+	padding: 30px;
+
+}
+
+.social-block {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 0;
+}
+
+.social-photo {
+	padding: 30px;
+}
+
+.social-photo img {
+	width: 200px;
+	border-radius: 50%;
+}
+
+.social-content {
+	display: flex;
+	flex-basis: 50%;
+}
+
+.social-icons {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	flex-basis: 40%;
+	padding: 30px;
+	transition: all 0.9s;
+}
+
+.social-icons img:hover {
+	transform: scale(0.8);
+}
+
+.social-icons h3 {
+	font-size: 22px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.social-icons p {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.social-icons img {
+	color: rgb(163, 132, 191);
+	width: 50px;
+	padding-top: 10px;
+}
+
+.footer-content {
+	display: flex;
+	padding-bottom: 30px;
+	border-bottom: 1px solid white;
+}
+
+.footer-content li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.footer-info img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.footer-info {
+	padding: 30px;
+	border-top: 1px solid white;
+}
+
+.footer-info h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	padding: 20px 0;
+}
+
+.footer-info p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	width: 80%;
+}
+
+.footer-column-one {
+	padding: 60px;
+}
+
+.footer-column-two {
+	background-color: rgb(163, 132, 191);
+	padding: 60px;
+}
+
+footer {
+	padding-bottom: 30px;
+}
+
+
+
+
