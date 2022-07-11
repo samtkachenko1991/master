@@ -1,0 +1,100 @@
+  .title {
+    font-size: 70px;
+    margin-left: 30px;
+    padding-top: 20px;
+  }
+
+  .section-1 {
+    height: 600px;
+    max-width: 1300px;
+    min-width: 400px;
+    margin: 20px auto;
+    
+  }
+
+  
+  .column {
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    float: right;
+    width: 254px;
+    height: 200px;
+    text-align: justify;
+    padding-left: 12px
+    
+
+  }
+  
+  .blocks {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 548px;
+    display: inline-block;
+  }
+
+  .section-2 {
+    height: 500px;
+    max-width: 1300px;
+    min-width: 400px;
+    margin: 20px auto;
+    background-color: lightgrey;
+  }
+
+  .section-3 {
+    height: 400px;
+    max-width: 1300px;
+    min-width: 400px;
+    margin: 20px auto;
+    background-color: aqua;
+  }
+
+
+  .section-4 {
+    height: 500px;
+    max-width: 1300px;
+    min-width: 400px;
+    margin: 20px auto;
+  }
+
+  .blocks-4 {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -30px
+  }
+
+  li::marker {
+    color: springgreen;
+  }
+
+  li:first-child::marker {
+    font-size: 40px;
+  }
+
+  .Section-5 {
+    height: 500px;
+    max-width: 1300px;
+    min-width: 400px;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+  }
+  
+  .img-5 {
+   width: 250px;
+   height: 150px;
+   padding-left: 10px; 
+   padding-right: 10px;
+  }
+
+  .but-5 {
+    background-color: aqua; 
+    color: white;
+    text-align: center; 
+    font-size: 16px; 
+    font-size: 16px; 
+    width: 25%; 
+    line-height: 25px; 
+    margin-left: 10px;
+  }
